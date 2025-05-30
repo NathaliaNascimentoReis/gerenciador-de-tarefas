@@ -20,3 +20,7 @@ console.log(`\n O segundo item removido da lista foi ${segundoItemRemovido} `);
 // Verificando se uma Tarefa Existe
 console.log("A lista inclui 'Ir à academia?'", tarefas.includes('Ir à academia'));
 
+console.table(tarefas);
+
+// Transformando a Lista em String
+console.log("Minha lista de tarefas é", tarefas.join(", "));
