@@ -39,3 +39,5 @@
 ### 𖹭.ᐟ Filtrando as tarefas com mais de 15 caractéres com método Filter
 * let tarefasComMaisDe15Caracteres = transformandoTarefas.filter(tarefa => tarefa.length > 15)
 
+### ⊹ ࣪ ˖  Ordenando as Tarefas em ordem alfabética com método Sort
+* let tarefasOrdenadas = transformandoTarefas.sort();

@@ -43,7 +43,10 @@ transformandoTarefas = novatarefas.map(novatarefas => "Fazer: " + novatarefas);
 console.table(transformandoTarefas);
 
 // Filtrando Tarefas
-let tarefasComMaisDe15Caracteres = transformandoTarefas.filter(tarefa => tarefa.length > 15)
+let tarefasComMaisDe15Caracteres = transformandoTarefas.filter(tarefa => tarefa.length > 15);
 console.table(tarefasComMaisDe15Caracteres);
 
-// 
+// Ordenando as Tarefas
+let tarefasOrdenadas = transformandoTarefas.sort();
+console.table(tarefasOrdenadas);
+
