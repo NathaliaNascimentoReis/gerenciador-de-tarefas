@@ -33,5 +33,9 @@
 * let tarefas2 = ["Continuar escrevendo roteiro do RPG","Entregar ficha do RPG"];
 * console.table(tarefas.concat(tarefas2)); 
 
-### ⊹ ࣪ ˖ Transformando as Tarefas adicionando "Fazer:" no início com método 
+### ⊹ ࣪ ˖ Transformando as Tarefas adicionando "Fazer:" no início com método Map
 * transformandoTarefas = novatarefas.map(novatarefas => "Fazer: " + novatarefas);
+
+### 𖹭.ᐟ Filtrando as tarefas com mais de 15 caractéres com método Filter
+* let tarefasComMaisDe15Caracteres = transformandoTarefas.filter(tarefa => tarefa.length > 15)
+
