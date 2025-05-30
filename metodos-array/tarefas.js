@@ -30,5 +30,9 @@ console.log('\n', maisElementosRemovidos, '\n');
 console.table(tarefas);
 
 // Substitui elementos
-tarefas.splice(3, 1, "lavar o cabelo")
+tarefas.splice(3, 1, "lavar o cabelo");
 console.table(tarefas);
+
+// Concatenando Tarefas
+let tarefas2 = ["Continuar escrevendo roteiro do RPG","Entregar ficha do RPG"];
+console.table(tarefas.concat(tarefas2));

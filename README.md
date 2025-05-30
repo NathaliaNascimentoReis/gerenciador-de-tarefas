@@ -29,3 +29,6 @@
 #### ⊹ ࣪ ˖ Alterando lista substituindo elementos com método Splice
 * tarefas.splice(3, 1, "lavar o cabelo")
 
+#### 𖹭.ᐟ Concatenando Tarefas (unindo arrays) com método Concat
+* let tarefas2 = ["Continuar escrevendo roteiro do RPG","Entregar ficha do RPG"];
+* console.table(tarefas.concat(tarefas2)); 
