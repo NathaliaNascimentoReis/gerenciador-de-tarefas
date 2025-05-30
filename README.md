@@ -23,5 +23,9 @@
 #### ⊹ ࣪ ˖ Transformando a Lista em String com método Join
 * console.log("Minha lista de tarefas é", tarefas.join(", "));
 
-#### 𖹭.ᐟ Extrai parte da lista (do índice 2 ao 4 da lista) com método Splice
+#### 𖹭.ᐟ Extraindo parte da lista (do índice 2 ao 4 da lista) com método Splice
 * let maisElementosRemovidos = tarefas.splice(2, 2);
+
+#### ⊹ ࣪ ˖ Alterando lista substituindo elementos com método Splice
+* tarefas.splice(3, 1, "lavar o cabelo")
+

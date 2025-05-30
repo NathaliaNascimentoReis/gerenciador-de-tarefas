@@ -1,4 +1,4 @@
-let tarefas = ['Estudar JavaScript', 'Fazer exercícios de matemática', 'Lavar a louça', 'Comprar mercado', 'Ir à academia', 'Ler um livro', 'Fazer revisão para o teste', 'Limpar o quarto', 'Estudar para concurso', 'Organizar o computador'];
+let tarefas = ['Estudar JavaScript', 'Fazer exercícios de matemática', 'Lavar a louça', 'Comprar mercado', 'Ir à academia', 'Fazer revisão para o teste', 'Limpar o quarto', 'Ler um livro', 'Estudar para concurso', 'Organizar o computador'];
 console.table(tarefas);
 
 // Adicionando mais tarefas à lista
@@ -27,4 +27,8 @@ console.log("\n Minha lista de tarefas é", tarefas.join(", "));
 // Extrai parte da lista
 let maisElementosRemovidos = tarefas.splice(2, 2);
 console.log('\n', maisElementosRemovidos, '\n');
+console.table(tarefas);
+
+// Substitui elementos
+tarefas.splice(3, 1, "lavar o cabelo")
 console.table(tarefas);
