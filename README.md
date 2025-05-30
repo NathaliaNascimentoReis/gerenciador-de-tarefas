@@ -41,3 +41,6 @@
 
 ### ⊹ ࣪ ˖  Ordenando as Tarefas em ordem alfabética com método Sort
 * let tarefasOrdenadas = transformandoTarefas.sort();
+
+### 𖹭.ᐟ Invertendo a Ordem das Tarefas com método Reverse
+* let tarefasInvertidas = tarefasOrdenadas.reverse();

@@ -30,7 +30,7 @@ console.log('\n', maisElementosRemovidos, '\n');
 console.table(tarefas);
 
 // Substitui elementos
-tarefas.splice(3, 1, "lavar o cabelo");
+tarefas.splice(3, 1, "Lavar o cabelo");
 console.table(tarefas);
 
 // Concatenando Tarefas
@@ -50,3 +50,6 @@ console.table(tarefasComMaisDe15Caracteres);
 let tarefasOrdenadas = transformandoTarefas.sort();
 console.table(tarefasOrdenadas);
 
+// Invertendo a Ordem das Tarefas
+let tarefasInvertidas = tarefasOrdenadas.reverse();
+console.table(tarefasInvertidas);
