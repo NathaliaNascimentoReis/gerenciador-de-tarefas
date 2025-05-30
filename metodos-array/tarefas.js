@@ -15,12 +15,16 @@ console.table(tarefas);
 
 // Removendo a Primeira Tarefa da lista
 let segundoItemRemovido = tarefas.shift();
-console.log(`\n O segundo item removido da lista foi ${segundoItemRemovido} `);
+console.log(`\n O segundo item removido da lista foi ${segundoItemRemovido} \n`);
 
 // Verificando se uma Tarefa Existe
 console.log("A lista inclui 'Ir à academia?'", tarefas.includes('Ir à academia'));
-
 console.table(tarefas);
 
 // Transformando a Lista em String
-console.log("Minha lista de tarefas é", tarefas.join(", "));
+console.log("\n Minha lista de tarefas é", tarefas.join(", "));
+
+// Extrai parte da lista
+let maisElementosRemovidos = tarefas.splice(2, 2);
+console.log('\n', maisElementosRemovidos, '\n');
+console.table(tarefas);

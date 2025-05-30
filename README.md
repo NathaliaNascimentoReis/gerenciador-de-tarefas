@@ -20,5 +20,8 @@
 #### 𖹭.ᐟ Verificando se uma Tarefa Existe com método Includes
 * console.log("A lista inclui 'Ir à academia?'", tarefas.includes('Ir à academia'));
 
-#### Transformando a Lista em String com método Join
+#### ⊹ ࣪ ˖ Transformando a Lista em String com método Join
 * console.log("Minha lista de tarefas é", tarefas.join(", "));
+
+#### 𖹭.ᐟ Extrai parte da lista (do índice 2 ao 4 da lista) com método Splice
+* let maisElementosRemovidos = tarefas.splice(2, 2);
