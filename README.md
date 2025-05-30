@@ -16,3 +16,6 @@
 
 #### ⊹ ࣪ ˖ Removendo o primeiro elemento da lista cok método shift
 * let segundoItemRemovido = tarefas.shift();
+
+#### ⊹ ࣪ ˖ Verificando se uma Tarefa Existe com método Includes
+* console.log("A lista inclui 'Ir à academia?'", tarefas.includes('Ir à academia'));
