@@ -5,4 +5,5 @@ console.log(tarefas);
 tarefas.push('Fazer Duolingo','Checar Emails');
 console.log(tarefas);
 
-// Removendo último elemento
+// Removendo último elemento da lista
+let itemRemovido = tarefas.pop();

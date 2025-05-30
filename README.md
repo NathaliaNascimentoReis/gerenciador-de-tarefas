@@ -8,4 +8,5 @@
 #### ⊹ ࣪ ˖ Adicionando novas tarefas com método push
 * tarefas.push('Fazer Duolingo','Checar Emails');
 
-#### ⊹ ࣪ ˖ Removendo último elemento da lista de tarefas com método 
+#### ⊹ ࣪ ˖ Removendo último elemento da lista de tarefas com método Pop e registrando-o
+* let itemRemovido = tarefas.pop();
