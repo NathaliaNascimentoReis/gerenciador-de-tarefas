@@ -35,4 +35,9 @@ console.table(tarefas);
 
 // Concatenando Tarefas
 let tarefas2 = ["Continuar escrevendo roteiro do RPG","Entregar ficha do RPG"];
-console.table(tarefas.concat(tarefas2));
+let novatarefas = tarefas.concat(tarefas2);
+console.table(novatarefas);
+
+// Transformando as Tarefas
+transformandoTarefas = novatarefas.map(novatarefas => "Fazer: " + novatarefas);
+console.table(transformandoTarefas);
