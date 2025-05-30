@@ -10,3 +10,6 @@
 
 #### ⊹ ࣪ ˖ Removendo último elemento da lista de tarefas com método Pop e registrando-o
 * let itemRemovido = tarefas.pop();
+
+#### ⊹ ࣪ ˖ Adicionando um elemento ao início da lista com método unshift
+* tarefas.unshift('Fazer almoço');
