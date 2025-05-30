@@ -13,3 +13,6 @@
 
 #### ⊹ ࣪ ˖ Adicionando um elemento ao início da lista com método unshift
 * tarefas.unshift('Fazer almoço');
+
+#### ⊹ ࣪ ˖ Removendo o primeiro elemento da lista cok método shift
+* let segundoItemRemovido = tarefas.shift();
